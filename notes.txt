@@ -1,0 +1,10 @@
+#Pasos para dar de alta el API para leer info de Mongo
+#
+#1. Crear el repositorio del API
+#2. Instalar las dependencias de express, mongoose y dotenv
+#3. Crear un .env con las credenciales de la base de datos y el puerto
+#4. Crear el archivo de server con el endpoint de la consulta
+#5. Ejecutar el server con node (o pm2 si es en productivo) y comprobar que haya una conexión exitosa
+#6. Probar la dirección del endpoint
+#
+#La consulta regresa un arreglo de datos en JSON.
